@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Yeah</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="fb_uname">uName</string>
+    <string name="fb_bday">bday</string>
+    <string name="fb_email">email</string>
+    <string name="fb_phone">uPhone</string>
+    <string name="fb_status">status</string>
+    <string name="fb_table_users">Users</string>
+
+    <string name="fb_locations">locations</string>
+    <string name="fb_myLoc">myLoc</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_delete_this">Map</string>
+</resources>

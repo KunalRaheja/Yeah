@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.example.kunalraheja.yeah.GeofireActvity"
+    android:padding="30dp">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get notifications"
+        android:id="@+id/gf_checkBox"
+        android:checked="false"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/gf_infor"
+        android:layout_centerHorizontal="true" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gf_seekBar"
+        android:indeterminate="false"
+        android:layout_below="@+id/gf_textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Radius for Geofire"
+        android:id="@+id/gf_textView"
+        android:layout_below="@+id/gf_checkBox"
+        android:layout_alignLeft="@+id/gf_seekBar"
+        android:layout_alignStart="@+id/gf_seekBar"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="0 km"
+        android:id="@+id/gf_dis"
+        android:layout_alignRight="@+id/gf_textView"
+        android:layout_alignEnd="@+id/gf_textView"
+        android:layout_below="@+id/gf_seekBar" />
+
+    <Button
+        android:text="Save"
+        android:id="@+id/gf_bt_save"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="50dp"
+
+        android:clickable="true"
+
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:background="@color/accent_material_dark"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=">Geofire is a service which runs in backgroud , so that you can get notifications for your friends in your radius. "
+        android:id="@+id/gf_infor"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+</RelativeLayout>
